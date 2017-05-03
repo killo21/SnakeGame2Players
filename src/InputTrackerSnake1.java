@@ -1,4 +1,4 @@
-//Dmitry
+//Implemented by: Dmitry Shlyapnikov
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
@@ -29,4 +29,6 @@ public class InputTrackerSnake1 extends KeyAdapter{
 /*Was unsure of how to track key presses in Java so I found this thread
 http://stackoverflow.com/questions/18037576/how-do-i-check-if-the-user-is-pressing-a-key
 which lead me to the Java doc for KeyAdapter
-https://docs.oracle.com/javase/7/docs/api/java/awt/event/KeyAdapter.html*/
+https://docs.oracle.com/javase/7/docs/api/java/awt/event/KeyAdapter.html
+To find the KeyValues for the arrow keys, this resource was used
+https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes*/
