@@ -1,7 +1,7 @@
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-//Matt
+//implemented by Mateuz
 public class InputTrackerSnake2 extends KeyAdapter{
     public void keyPressed(KeyEvent e2){
         switch(e2.getKeyCode()){
