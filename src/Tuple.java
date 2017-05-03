@@ -1,8 +1,9 @@
-public class TupleMaker {
+//implemented by Dmitry Shlyapnikov
+public class Tuple {
     public  int x;
     public  int y;
 
-    public TupleMaker(int x, int y) {
+    public Tuple(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -19,4 +20,4 @@ public class TupleMaker {
 
 }
 
-//TupleMaker class based very closely off of "http://stackoverflow.com/questions/2670982/using-pairs-or-2-tuples-in-java"
+//Tuple class based very closely off of "http://stackoverflow.com/questions/2670982/using-pairs-or-2-tuples-in-java"
