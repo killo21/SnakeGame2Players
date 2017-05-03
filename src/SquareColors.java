@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.awt.Color;
 
+//Implemented by Dmitry Shyapnikov
 public class SquareColors {
 
-//Dmitry
     //ArrayList that'll contain the colors
     ArrayList<Color> ColorList =new ArrayList<Color>();  //ArrayList to store colors
     int color;
@@ -15,7 +15,7 @@ public class SquareColors {
         ColorList.add(Color.darkGray);                                              //1 index     //Todo: Clean up repeated colors
         ColorList.add(Color.white);                                                 //2 index
         ColorList.add(Color.red);                                                   //3 index
-        ColorList.add(Color.red);                                                   //4 index
+        ColorList.add(Color.lightGray);                                             //4 index
         color=c;                                                                    // index is set to external int variable
         square = new ColorPanel(ColorList.get(color));
     }
