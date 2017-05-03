@@ -1,6 +1,6 @@
 import java.awt.Color;
 import javax.swing.JPanel;
-//written by Matt
+//implemented by Mateusz
 public class ColorPanel extends JPanel{
 
 
