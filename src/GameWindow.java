@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import javax.swing.JFrame;
 
+//implemented by Dmitry Shlyapnikov
 
 class GameWindow extends JFrame{
 
@@ -16,7 +17,7 @@ class GameWindow extends JFrame{
         Grid = new ArrayList<ArrayList<SquareColors>>();                      //Matrix of game tiles
         ArrayList<SquareColors> allData;
 
-        // Creates Threads and its data and adds it to the arrayList
+        //Adds data to ArrayList of SquareColors
         for(int i=0;i<width;i++){
             allData= new ArrayList<SquareColors>();
             for(int j=0;j<height;j++){
@@ -41,8 +42,8 @@ class GameWindow extends JFrame{
         in Java in https://docs.oracle.com/javase/7/docs/api/java/awt/GridLayout.html*/
 
         // initial position of the snake
-        TupleMaker position1 = new TupleMaker(10,10);                //snake1 starts at (10,10)
-        TupleMaker position2 = new TupleMaker(10, 13);               //snake2 starts 3 tiles down
+        Tuple position1 = new Tuple(10,10);                //snake1 starts at (10,10)
+        Tuple position2 = new Tuple(10, 13);               //snake2 starts 3 tiles down
 
         //positions of each snake passed to the spawner class
         SnakeFoodSpawn spawnStart = new SnakeFoodSpawn(position1, position2);
